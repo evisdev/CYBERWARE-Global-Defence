@@ -1,0 +1,47 @@
+.servicesBox {
+  background: var(--color-grey-main);
+  padding: 60px 0;
+  border-bottom: 10px solid var(--color-orange);
+}
+
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.serviceItem {
+  max-width: 420px;
+  width: 100%;
+  padding: 20px;
+  background: var(--color-dark-grey);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  img,
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 25px;
+    height: 100%;
+  }
+}
+
+.serviceItem p {
+  font-size: 18px;
+  text-align: left;
+}

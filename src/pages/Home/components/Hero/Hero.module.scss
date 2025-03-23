@@ -1,0 +1,79 @@
+.homeHeroPosition {
+  display: flex;
+  align-items: center;
+}
+
+.homeHeroContainerNew {
+  color: var(--color-white);
+}
+
+.textTopNew {
+  font-size: clamp(22px, 3vw, 30px);
+  font-weight: 800;
+  line-height: 40px;
+  text-align: left;
+
+  span {
+    color: var(--color-orange);
+    display: block;
+  }
+}
+
+.titleBoxNew {
+  display: flex;
+}
+
+.mainTitleNew {
+  text-align: left;
+  position: relative;
+  max-width: 1620px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.titleTextNew {
+  position: absolute;
+  font-weight: 500;
+  line-height: 25px;
+  border-left: 5px solid var(--color-orange);
+  padding: 0 0 6px 20px;
+  margin: 0 0 0 15px;
+  letter-spacing: 0;
+  font-size: clamp(11px, 2vw, 20px);
+  max-width: 650px;
+}
+
+.btnContainerNew {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.freeConsultationBtnNew {
+  display: flex;
+  justify-content: center;
+  padding: 10px 13px;
+  border: 2px solid var(--color-white);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  max-width: 230px;
+  width: 100%;
+  margin-right: 30px;
+
+  span {
+    margin: 0 auto;
+  }
+}
+
+.linksBottomBoxNew {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottomLinkNew {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}

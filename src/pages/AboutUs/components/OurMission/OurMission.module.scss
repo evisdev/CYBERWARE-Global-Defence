@@ -1,0 +1,47 @@
+.servicesContainerNew {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 70px;
+}
+
+.serviceItemNew {
+  max-width: 824px;
+  padding: 20px 80px;
+  background: var(--color-dark-grey);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  img,
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .highlightOur {
+    color: var(--color-orange);
+  }
+
+  p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 25px;
+    height: 100%;
+  }
+}
+.serviceItemNew {
+  position: relative;
+  top: -100px;
+}
+
+.serviceItemNew p {
+  font-size: 18px;
+  text-align: left;
+}

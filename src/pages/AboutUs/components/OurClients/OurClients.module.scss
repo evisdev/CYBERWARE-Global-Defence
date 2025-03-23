@@ -1,0 +1,74 @@
+.container {
+  position: relative;
+  padding: 70px;
+  overflow-x: auto;
+}
+
+.text1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--color-black);
+  padding-bottom: 100px;
+}
+
+.carouselContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  gap: 32px;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  padding-bottom: 50px;
+
+  /* Styled Scrollbar */
+
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--color-grey-main);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--color-orange);
+  }
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  min-width: 600px;
+}
+
+.image {
+  width: 102px;
+  height: 102px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 200px;
+}
+
+.verticalLine {
+  width: 8px;
+  height: 300px;
+  background-color: var(--color-orange);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.text {
+  text-align: left;
+  margin-bottom: 20px;
+}

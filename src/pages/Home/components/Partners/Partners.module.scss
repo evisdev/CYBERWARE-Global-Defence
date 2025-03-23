@@ -1,0 +1,220 @@
+.container {
+  padding: 50px;
+  padding-bottom: 200px;
+  border-bottom: 10px solid var(--color-orange);
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--color-orange);
+}
+
+.partners {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons img {
+  width: 70px;
+  height: 70px;
+}
+
+.contactContainer {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-grey-main);
+  padding: 60px 150px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.contactText {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.contactForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: var(--color-black);
+}
+
+.emailInput {
+  padding: 7px 65px;
+  border: none;
+  text-align: center;
+}
+
+.submitButton {
+  padding: 7px 40px;
+  border: none;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.isoSection {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.isoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.isoIcon {
+  width: 317px;
+  height: 320px;
+  margin-right: 100px;
+}
+
+.isoText {
+  max-width: 797px;
+}
+
+.isoTitle {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 30px;
+  color: var(--color-orange);
+}
+
+.isoDescription {
+  text-align: left;
+  font-size: 23px;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.isoDetails {
+  border-top: 1px solid var(--color-grey-dark);
+  border-bottom: 1px solid var(--color-grey-dark);
+}
+
+.isoDetails p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 797px;
+  font-size: 1rem;
+  color: var(--color-grey-dark);
+  margin: 10px 0;
+  border-top: 2px solid var(--color-black);
+  padding-top: 10px;
+}
+
+.isoDetails p:last-child {
+  border-bottom: 2px solid var(--color-black);
+  padding-bottom: 10px;
+}
+
+.rightArrow {
+  width: 16px;
+  height: 16px;
+  transform: rotate(270deg);
+}
+
+.seeAllButton {
+  margin-top: 60px;
+  padding: 10px 40px;
+  margin-left: 70%;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--color-pastel-orange);
+  }
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom: 10px solid var(--color-orange);
+  padding: 80px;
+}
+
+.text2 {
+  font-size: 45px;
+  margin-left: 150px;
+  color: var(--color-orange);
+  font-weight: 700;
+  flex: 1;
+}
+
+.emailForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: 1;
+  margin-right: 430px;
+}
+
+.emailInputContainer {
+  position: relative;
+  width: 524px;
+  border-bottom: 3px solid var(--color-grey);
+  margin-bottom: 25px;
+}
+
+.emailIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-grey);
+}
+
+.emailInput {
+  padding: 7px 20px 7px 40px;
+  border: none;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.joinButton {
+  padding: 10px 20px;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--color-pastel-orange);
+  }
+}
+
+.thankYouMessage {
+  font-size: 1.5rem;
+  color: var(--color-orange);
+  margin-top: 20px;
+}

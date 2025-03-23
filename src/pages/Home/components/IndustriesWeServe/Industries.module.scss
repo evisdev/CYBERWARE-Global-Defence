@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+
+.text {
+  flex: 1;
+}
+
+.textContent {
+  color: var(--color-orange);
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 1.2;
+}
+
+.video {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonPrimary,
+.buttonSecondary {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px 65px;
+  border: 2px solid var(--color-orange);
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  background: var(--color-white);
+  color: var(--color-orange);
+}
+
+.buttonPrimary:hover {
+  color: var(--color-white);
+  background: var(--color-orange);
+}
+
+.buttonSecondary {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  margin-left: 25px;
+}
+
+.buttonSecondary:hover {
+  background-color: var(--color-pastel-orange);
+}
+.industries,
+.solutions {
+  text-align: center;
+  margin-top: 20px;
+}
+.industries {
+  color: var(--color-orange);
+  font-size: 45px;
+  font-weight: 600;
+}
+.solutions {
+  color: var(--color-black);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.icon {
+  width: 180px;
+  height: 80px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.horizontalLine {
+  width: 110px;
+  height: 4px;
+  background-color: var(--color-black);
+  margin: 0 0 40px 0;
+  border: none;
+}
+.getStartedContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.buttonGetStarted {
+  padding: 7px 55px;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border: 2px solid var(--color-orange);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.buttonGetStarted:hover {
+  background-color: var(--color-pastel-orange);
+}
+
+.horizontalLineAlt {
+  border: none;
+  border-bottom: 10px solid var(--color-orange);
+}

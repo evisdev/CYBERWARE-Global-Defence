@@ -1,0 +1,134 @@
+.contactForm {
+  min-height: 100vh;
+  background-color: var(--color-grey-main);
+  color: var(--color-white);
+  padding: 2rem;
+
+  &Container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+  }
+
+  &Left {
+    flex: 1;
+  }
+
+  &Right {
+    flex: 1;
+  }
+
+  &Title {
+    color: var(--color-orange);
+    font-size: 5rem;
+    font-weight: bold;
+    margin-right: 5rem;
+  }
+
+  &Subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+
+  &Info {
+    margin-bottom: 2rem;
+    margin-right: 5rem;
+
+    p {
+      margin-bottom: 10px;
+      margin-right: 10rem;
+
+      &:last-child {
+        margin-right: 6.3rem;
+      }
+    }
+  }
+
+  &Next {
+    h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      margin-right: 14rem;
+      color: var(--color-white);
+    }
+  }
+
+  &Steps {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+  }
+
+  &Step {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  &StepNumber {
+    background-color: var(--color-orange);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &Field {
+    margin-bottom: 1.5rem;
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: var(--color-orange);
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: var(--color-dark-grey);
+      border: none;
+      font-size: 1rem;
+      color: var(--color-gray);
+      :focus {
+        border: 2px solid var(--color-orange);
+      }
+      s &::placeholder {
+        color: var(--color-dark);
+      }
+    }
+
+    textarea {
+      min-height: 250px;
+      resize: vertical;
+    }
+  }
+
+  &Submit {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--color-orange);
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: var(--color-pastel-orange);
+    }
+  }
+}
+.pageTitle {
+  color: var(--color-white);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
